@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Library System</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Library System</h1>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="search">
+        <h2>Search for Books</h2>
+        <form>
+            <input type="text" placeholder="Enter book title">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+    <div class="image-container">
+        <img src="istockphoto-949118068-612x612.jpg" alt="My Photo" id="profile-image">
+    </div>
+
+    <section class="book-list" id="book-list">
+        <h2>Available Books</h2>
+        <div class="book-grid">
+            <div class="book-item" data-id="1">
+                <img src="atomichabit.jpeg" alt="Book Cover">
+                <span class="book-title">Atomic Habits</span> by James Clear
+                <button class="checkout-btn">Checkout</button>
+            </div>
+            <div class = "book-item" data-id="2">
+                <img src="harryporter.jpg" alt="Book Cover">
+                <span class="book-title">Harry Potter</span> by J. K. Rowling
+                <button class="checkout-btn">Checkout</button>
+            </div>
+            <div class = "book-item" data-id="3">
+                <img src="sherlockHomes.jpeg" alt="Book Cover">
+                <span class="book-title">Sherlock Homes</span> by Parshva Jain
+                <button class="checkout-btn">Checkout</button>
+            </div>
+            <div class = "book-item" data-id="4">
+                <img src="atomichabit.jpeg" alt="Book Cover">
+                <span class="book-title">Atomic Habits</span> by James Clear
+            <button class="checkout-btn">Checkout</button>
+        </div>
+            <div class = "book-item" data-id="5">
+                <img src="harryporter.jpg" alt="Book Cover">
+                <span class="book-title">Harry Potter</span> by J. K. Rowling
+            <button class="checkout-btn">Checkout</button>
+        </div>
+            <div class = "book-item" data-id="6">
+                <img src="atomichabit.jpeg" alt="Book Cover">
+                <span class="book-title">Atomic Habits</span> by James Clear
+            <button class="checkout-btn">Checkout</button>
+        </div>
+            <div class = "book-item" data-id="7">
+                <img src="harryporter.jpg" alt="Book Cover">
+                <span class="book-title">Harry Potter</span> by J. K. Rowling
+            <button class="checkout-btn">Checkout</button>
+        </div>
+            <div class = "book-item" data-id="8">
+                <img src="atomichabit.jpeg" alt="Book Cover">
+                <span class="book-title">Atomic Habits</span> by James Clear
+            <button class="checkout-btn">Checkout</button>
+            </div>
+            <div class = "book-item" data-id="9">  
+                <img src="harryporter.jpg" alt="Book Cover">
+                <span class="book-title">Harry Potter</span> by J. K. Rowling
+            <button class="checkout-btn">Checkout</button>
+            </div>
+            <div class = "book-item" data-id="10">
+                <img src="atomichabit.jpeg" alt="Book Cover">
+                <span class="book-title">Atomic Habits</span> by James Clear
+            <button class="checkout-btn">Checkout</button>
+            </div>
+            <div class = "book-item" data-id="11">
+                <img src="harryporter.jpg" alt="Book Cover">
+                <span class="book-title">Harry Potter</span> by J. K. Rowling
+            <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </section>
+    <section class="selected-book" id="selected-book">
+        <h2>Selected Book</h2>
+        <div id="selected-book-details">
+            <!-- Book details will be displayed here -->
+        </div>
+    </section>
+
+    <table style="border-collapse: collapse; width: 100%;">
+        <colgroup>
+            <col span="2" style="background-color: #f2f2f2">
+            <col style="background-color:#333">
+          </colgroup>
+        <thead>
+            <tr>
+                <th style="border: 1px solid #333; padding: 10px; color: black; ">Name</th>
+                <th style="border: 1px solid #333; padding: 10px; color: black; ">Author</th>
+                <th style="border: 1px solid #333; padding: 10px; color: black; background-color: #f2f2f2; ">Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="1" style="border: 1px solid black; padding: 10px;">Atomic Habits</td>
+                <td style="border: 1px solid black; padding: 10px;">by James Clear</td>
+                <td style="border: 1px solid black; padding: 10px; background-color: green; ">Available</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 10px;">Harry Potter</td>
+                <td style="border: 1px solid black; padding: 10px;">by JK Rowling</td>
+                <td style="border: 1px solid black; padding: 10px; background-color: red; ">Not Available</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 10px;">Parshva Jain</td>
+                <td style="border: 1px solid black; padding: 10px;">20BBS0169</td>
+                <td style="border: 1px solid black; padding: 10px; background-color: green;"> by Available</td>
+            </tr>
+            <thead>
+            <tr>
+                <th rowspan="2" colspan="2" style="border: 1px solid #333; padding: 10px; color: black; ">Total Books</th>
+                <th rowspan="2" style="border: 1px solid #333; background-color: #f2f2f2; padding: 10px; color: black; ">3</th>
+                
+            </tr>
+            <!-- Add more rows for other books -->
+        </tbody>
+    </table>
+    <div class="image-container1">
+        <img src="images.jpeg" alt="My Photo" id="profile-image">
+    </div>  
+    <section class="about-me">
+        <div class="about-content">
+          <h1>About Me</h1>
+          <p>Hello! I'm Parshva Jain, Welcome to my lib.</p>
+          <p>Registration Number is 20BBS0169</p>
+        </div>
+        <div class="image-container">
+          <img src="profile_pic_ (1).jpg" alt="My Photo" id="profile-image">
+        </div>
+      </section>    
+
+    <script>
+          document.addEventListener("DOMContentLoaded", () => {
+            // Get the book list, selected book details, and search form elements
+            const bookList = document.getElementById("book-list");
+            const selectedBookDetails = document.getElementById("selected-book-details");
+            const searchForm = document.querySelector(".search form");
+            const searchInput = document.querySelector(".search input");
+
+            // Array of books
+            const books = [
+                { id: 1, title: "Atomic Habits", author: "James Clear", availability: true },
+                { id: 2, title: "Harry Potter", author: "J.K. Rowling", availability: false },
+                { id: 3, title: "Sherlock Holmes", author: "Parshva Jain", availability: true },
+                { id: 4, title: "Atomic Habits1", author: "James Clear", availability: true },
+                { id: 5, title: "Harry Potter2", author: "J.K. Rowling", availability: false },
+                { id: 6, title: "Atomic Habits2", author: "James Clear", availability: true },
+                { id: 7, title: "Harry Potter3", author: "J.K. Rowling", availability: true },
+                { id: 8, title: "Atomic Habits4", author: "James Clear", availability: false },
+                { id: 9, title: "Harry Potter5", author: "J.K. Rowling", availability: true },
+                { id: 10, title: "Atomic Habits6", author: "James Clear", availability: true },
+                { id: 11, title: "Harry Potter7", author: "J.K. Rowling", availability: false },
+                // Add more books here
+            ];
+
+            // const backgroundImages = [
+            //     "background1.jpeg",
+            //     "background2.jpeg",
+            //     "background3.jpeg",
+            // ];
+
+            // Function to display book details
+            function displayBookDetails(bookId) {
+                const book = books.find((item) => item.id === bookId);
+                if (book) {
+                    selectedBookDetails.innerHTML = `
+                        <h3>${book.title}</h3>
+                        <p>Author: ${book.author}</p>
+                        <p>Availability: ${book.availability ? "Available" : "Not Available"}</p>
+                    `;
+                }
+            }
+
+            // Event delegation to handle book checkout clicks
+            bookList.addEventListener("click", (event) => {
+                if (event.target.classList.contains("checkout-btn")) {
+                    const bookId = parseInt(event.target.closest(".book-item").getAttribute("data-id"));
+                    displayBookDetails(bookId);
+                }
+            });
+            // const randomBackgroundIndex = Math.floor(Math.random() * backgroundImages.length);
+            // document.body.style.backgroundImage = `url(${backgroundImages[randomBackgroundIndex]})`;
+            // Initial book details display
+            displayBookDetails(1); // Display details for the first book
+
+            // Search functionality
+            searchForm.addEventListener("submit", (event) => {
+                event.preventDefault();
+                const searchTerm = searchInput.value.toLowerCase();
+                const searchResults = books.filter((book) => {
+                    return (
+                        book.title.toLowerCase().includes(searchTerm) ||
+                        book.author.toLowerCase().includes(searchTerm)
+                    );
+                });
+
+                // Display search results dynamically
+                if (searchResults.length > 0) {
+                    const resultsHtml = searchResults.map((book) => {
+                        return `
+                            <li data-id="${book.id}">
+                                <img src="atomichabit.jpeg" alt="Book Cover">
+                                <span class="book-title">${book.title}</span> by ${book.author}
+                                <button class="checkout-btn">Checkout</button>
+                            </li>
+                        `;
+                    }).join("");
+
+                    bookList.innerHTML = `<h2>Search Results</h2><ul>${resultsHtml}</ul>`;
+                } else {
+                    bookList.innerHTML = "<h2>No results found.</h2>";
+                }
+            });
+        });
+          
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            form
+        </title>
+        <link href = "sty.css" rel = "stylesheet">
+    </head>
+    <body>
+        <h1 class = "hellooo">Please fill the form</h1>
+        <form>
+            Name:<br>
+            <input type="text" name = "Name">
+            <br>
+            Contact Number: <br>
+            <input type="text" name = "contact number">
+            <br>
+            Email:<br>
+            <input type="email" name = "email">
+            <br>
+            Select Gender:<br>
+            <input type="radio" name = "gender" id = "male">
+            <label for = "male">male</label><br>
+            <input type="radio" name = "gender" id = "female">
+            <label for = "female">female</label><br>
+            Password:
+            <input type="password" name = "Password"><br>
+            <div class = "checkbox1">
+                Select Subject:
+                <input type="checkbox" name = "Subject" id = "Maths">
+                <label for = "Maths">Maths</label>
+                <input type="checkbox" name = "Subject" id = "Sci">
+                <label for = "Sci">Science</label>
+            </div>
+            <label for="uplode">uplode the file</label>
+            <input type="file"  name = "upl" id="uplode">
+            <br>
+            <label for ="des">describtion</label>
+            <textarea rows="50" cols="100" name = "describtion" id = "des"></textarea>
+            <br>
+            <label for = "contry">Country:</label>
+            <br>
+            <select name = "Country" id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UAE">UAE</option>
+            </select>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>

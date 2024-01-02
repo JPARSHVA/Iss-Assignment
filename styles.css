@@ -1,0 +1,137 @@
+/* Reset some default styles */
+/* Name: Parshva Jain 
+   Reg. no.: 20BBS0169 */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #444;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.search {
+    text-align: center;
+    padding: 2rem;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search button:hover {
+    background-color: #444;
+    color: white;
+  }
+
+.book-list {
+    padding: 10px;
+}
+
+.book-list ul {
+    list-style-type: none;
+}
+
+.book-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    align-content: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.book-title {
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+.book-list img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container1 {
+    padding-top: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #profile-image {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .passed {
+    color: green;
+  }
+
+
+  .failed {
+    color: red;
+  }
